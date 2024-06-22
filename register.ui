@@ -28,6 +28,9 @@
      <height>511</height>
     </rect>
    </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color:#A52A2A; 
 border-left-color: 3px solid rgb(85, 0, 0);</string>
@@ -42,15 +45,25 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
      <x>450</x>
      <y>100</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: none; /* No border */
+    border-bottom: 2px solid #795548; /* Primary brown shade for bottom border */
+    padding: 5px 0; /* Padding inside the input, adjusted for bottom border */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-bottom-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-bottom-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="placeholderText">
     <string>fIrst Name</string>
@@ -81,15 +94,25 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
      <x>960</x>
      <y>100</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: none; /* No border */
+    border-bottom: 2px solid #795548; /* Primary brown shade for bottom border */
+    padding: 5px 0; /* Padding inside the input, adjusted for bottom border */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-bottom-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-bottom-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="placeholderText">
     <string>Last name</string>
@@ -101,18 +124,28 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
      <x>450</x>
      <y>170</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: none; /* No border */
+    border-bottom: 2px solid #795548; /* Primary brown shade for bottom border */
+    padding: 5px 0; /* Padding inside the input, adjusted for bottom border */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-bottom-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-bottom-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="placeholderText">
-    <string>email</string>
+    <string>Email</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_4">
@@ -121,15 +154,25 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
      <x>450</x>
      <y>240</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: none; /* No border */
+    border-bottom: 2px solid #795548; /* Primary brown shade for bottom border */
+    padding: 5px 0; /* Padding inside the input, adjusted for bottom border */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-bottom-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-bottom-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="placeholderText">
     <string>Faculty</string>
@@ -139,20 +182,30 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
    <property name="geometry">
     <rect>
      <x>960</x>
-     <y>160</y>
+     <y>170</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: none; /* No border */
+    border-bottom: 2px solid #795548; /* Primary brown shade for bottom border */
+    padding: 5px 0; /* Padding inside the input, adjusted for bottom border */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-bottom-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-bottom-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="placeholderText">
-    <string>Phpne Number</string>
+    <string>Phone Number</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_6">
@@ -160,16 +213,26 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
     <rect>
      <x>950</x>
      <y>310</y>
-     <width>171</width>
-     <height>24</height>
+     <width>181</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: 2px solid #795548; /* Primary brown shade for border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 5px 10px; /* Padding inside the input */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="echoMode">
     <enum>QLineEdit::EchoMode::Password</enum>
@@ -184,15 +247,25 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
      <x>680</x>
      <y>240</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: none; /* No border */
+    border-bottom: 2px solid #795548; /* Primary brown shade for bottom border */
+    padding: 5px 0; /* Padding inside the input, adjusted for bottom border */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-bottom-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-bottom-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="placeholderText">
     <string>Department</string>
@@ -204,15 +277,25 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
      <x>680</x>
      <y>170</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: none; /* No border */
+    border-bottom: 2px solid #795548; /* Primary brown shade for bottom border */
+    padding: 5px 0; /* Padding inside the input, adjusted for bottom border */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-bottom-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-bottom-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="placeholderText">
     <string>User Name</string>
@@ -224,38 +307,28 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
      <x>680</x>
      <y>100</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: none; /* No border */
+    border-bottom: 2px solid #795548; /* Primary brown shade for bottom border */
+    padding: 5px 0; /* Padding inside the input, adjusted for bottom border */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-bottom-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-bottom-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="placeholderText">
     <string>Middle Name</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_12">
-   <property name="geometry">
-    <rect>
-     <x>960</x>
-     <y>240</y>
-     <width>171</width>
-     <height>24</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
-}
-</string>
-   </property>
-   <property name="placeholderText">
-    <string>Level</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_13">
@@ -264,7 +337,7 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
      <x>450</x>
      <y>310</y>
      <width>171</width>
-     <height>24</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="cursor">
@@ -272,10 +345,20 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">QLineEdit {
-  border: none;
-  border-bottom: 2.5px solid #A52A2A;  /* Deep brown color code */
+    background-color: #FFFFFF; /* White background */
+    border: 2px solid #795548; /* Primary brown shade for border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 5px 10px; /* Padding inside the input */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
 }
-</string>
+
+QLineEdit:hover {
+    border-color: #6D4C41; /* Darker brown shade on hover */
+}
+
+QLineEdit:focus {
+    border-color: #5D4037; /* Even darker brown when focused */
+}</string>
    </property>
    <property name="echoMode">
     <enum>QLineEdit::EchoMode::Password</enum>
@@ -313,7 +396,7 @@ border-left-color: 3px solid rgb(85, 0, 0);</string>
     <string notr="true">QTextEdit{
 
 border:none;
-border-bottom: 2px solid brown;
+border-bottom: 2px solid;
 }</string>
    </property>
    <property name="placeholderText">
@@ -333,7 +416,7 @@ border-bottom: 2px solid brown;
     <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 700 italic 9pt &quot;Segoe UI&quot;;</string>
+    <string notr="true">font: 14px 700 italic 9pt &quot;Roboto&quot;;</string>
    </property>
    <property name="text">
     <string>...Welcome...</string>
@@ -345,6 +428,217 @@ border-bottom: 2px solid brown;
     <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>580</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #72360F; /* Primary brown shade */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+	font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #8B4513; /* Darker brown shade on hover */
+}
+
+QPushButton:pressed {
+    background-color: #59260B; /* Even darker brown when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #D7CCC8; /* Light brown background for disabled state */
+    color: #BCAAA4; /* Light brown text for disabled state */
+}</string>
+   </property>
+   <property name="text">
+    <string> Submit</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>upload-sign.png</normaloff>upload-sign.png</iconset>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>231</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ClosedHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QComboBox {
+    border: none; /* Light gray border */
+  ; /* Rounded corners */
+border-bottom: 2px solid #795548;
+    padding: 5px; /* Padding inside the combo box */
+    background-color: #FFFFFF; /* White background */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
+color:#795548;
+}
+
+QComboBox:hover {
+    border-color: #795548; /* Light blue border on hover */
+}
+
+QComboBox::drop-down {
+    border: none; /* Remove border of drop-down button */
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px; /* Width of drop-down button */
+    background-color: #FFFFFF; /* White background for drop-down button */
+}
+
+QComboBox::down-arrow {
+    image: url(down_arrow_icon.png); /* Path to your down arrow icon */
+    width: 14px; /* Width of down arrow icon */
+    height: 14px; /* Height of down arrow icon */
+}
+
+QComboBox QAbstractItemView {
+    border: 1px solid #BDBDBD; /* Border of the drop-down list */
+    selection-background-color: #8C9EFF; /* Background color of selected item */
+    selection-color: #FFFFFF; /* Text color of selected item */
+    background-color: #FFFFFF; /* Background color of the drop-down list */
+    padding: 5px; /* Padding inside the drop-down list */
+    outline: none; /* Remove outline */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Font of items in drop-down list */
+}
+
+QComboBox QAbstractItemView::item {
+    padding: 5px; /* Padding for each item */
+    background-color: #FFFFFF; /* Background color for each item */
+}
+
+QComboBox QAbstractItemView::item:hover {
+    background-color: #DE9967; /* Light gray background on hover */
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Level</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>100 Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>200 Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>300 Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>400 Level</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>500 Level</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>10</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  /*  background-color: #D7CCC8;  Light brown background */
+    color: #795548; /* Primary brown shade for text */
+    border: none; /* No border */
+    /*  border-radius: 4px;Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 14px &quot;Roboto&quot;, sans-serif; /* Modern font */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #C3B091; /* Darker shade on hover */
+}
+
+QPushButton:pressed {
+    background-color: #BCAAA4; /* Even darker when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Back to Login</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>left-arrow.png</normaloff>left-arrow.png</iconset>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>260</y>
+     <width>231</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>3232487_43916.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>quickWidget</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>label</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>lineEdit_5</zorder>
+  <zorder>lineEdit_6</zorder>
+  <zorder>lineEdit_7</zorder>
+  <zorder>lineEdit_8</zorder>
+  <zorder>lineEdit_9</zorder>
+  <zorder>lineEdit_13</zorder>
+  <zorder>line</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>pushButton_2</zorder>
  </widget>
  <customwidgets>
   <customwidget>
