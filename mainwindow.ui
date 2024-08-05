@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1220</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1220</width>
+    <height>637</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(241, 241, 241);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-30</y>
+      <width>211</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(227, 242, 253);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #E3F2FD; /* Very light blue shade */  
+    color: rgb(14, 36, 51);
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; /* Darker light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background-color: #90CAF9; /* Even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #E3F2FD; /* Very light blue background for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string> Home</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>house.png</normaloff>house.png</iconset>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>30</y>
+      <width>941</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>941</width>
+      <height>561</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>941</width>
+      <height>561</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/njia_n6dh_161216.jpg);</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>-180</x>
+       <y>-20</y>
+       <width>921</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>160</y>
+       <width>811</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(121, 157, 255);</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>40</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../.designer/backup/freepik-export-20240703182022gjpK.jpeg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>30</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24px 700 italic 9pt &quot;Roboto&quot;;</string>
+     </property>
+     <property name="text">
+      <string>John Doe</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>190</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18px 550 italic 7pt &quot;Roboto&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Faculty:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>190</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18px 550 italic 9pt &quot;Roboto&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Department:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>190</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 19px 550 italic 9pt &quot;Roboto&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Level:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>290</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18px 550 italic 7pt &quot;Roboto&quot;;</string>
+     </property>
+     <property name="text">
+      <string>eMail</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>300</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18px 550 italic 7pt &quot;Roboto&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Phone Number</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>-30</y>
+       <width>951</width>
+       <height>571</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>951</width>
+       <height>571</height>
+      </size>
+     </property>
+     <widget class="QListView" name="listView">
+      <property name="geometry">
+       <rect>
+        <x>45</x>
+        <y>51</y>
+        <width>891</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Basic QListView styling */
+QListView {
+    background: #FFFFFF; /* White background */
+    border: 1px solid #DDDDDD; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px;
+    font: 12pt &quot;Segoe UI&quot;; /* Font and size */
+}
+
+/* Style for the items */
+QListView::item {
+    background: #FFFFFF; /* White background */
+    color: #0E2433; /* Dark text color */
+    padding: 10px; /* Padding for each item */
+    margin: 5px 0; /* Margin between items */
+    border: 1px solid #E0E0E0; /* Light grey border */
+    border-radius: 3px; /* Rounded corners */
+}
+
+/* Hover state for items */
+QListView::item:hover {
+    background: #F1F1F1; /* Light grey background on hover */
+    border: 1px solid #CCCCCC; /* Slightly darker grey border on hover */
+}
+
+/* Selected state for items */
+QListView::item:selected {
+    background: #BBDEFB; /* Light blue background for selected items */
+    color: white; /* White text for selected items */
+    border: 1px solid #BBDEFB; /* Border matches background */
+}
+
+/* Highlight selected text color */
+QListView::item:selected:!active {
+    color: #FFFFFF; /* White text color for inactive selected items */
+}
+
+/* Subtle shadow effect */
+QListView::item {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+</string>
+      </property>
+     </widget>
+     <widget class="QSlider" name="verticalSlider">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>30</y>
+        <width>22</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Orientation::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QSlider" name="verticalSlider_2">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>40</y>
+        <width>22</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QSlider::groove:vertical {
+    background: #E0E0E0; /* Light grey */
+    width: 6px;
+    border-radius: 3px;
+}
+
+QSlider::handle:vertical {
+    background: #6200EE; /* Primary color */
+    border: 1px solid #6200EE; /* Darker primary color for border */
+    height: 20px;
+    width: 20px;
+    margin: -7px 0; /* Center the handle */
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+QSlider::handle:vertical:hover {
+    background: #3700B3; /* Darker primary color on hover */
+}
+
+QSlider::add-page:vertical {
+    background: #E0E0E0; /* Light grey */
+}
+
+QSlider::sub-page:vertical {
+    background: #6200EE; /* Primary color */
+    border-radius: 3px;
+}
+</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Orientation::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>70</y>
+        <width>631</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font:30px 700 9pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Blog Heading </string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>215</y>
+        <width>841</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;jjkj&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font:16px 550 8pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+Praesent id justo in neque elementum ultrices. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>170</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font:12px italic 550 9pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Reading Time: 2 hour</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>170</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font:12px italic 550 9pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Created at: </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>70</y>
+        <width>101</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>freepik-export-202407041857042QgX.jpeg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>170</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font:12px italic 550 9pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Created By: </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>794</x>
+        <y>503</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  
+    color: rgb(14, 36, 51); /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;; /* Font settings */
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light blue for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Read More</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>921</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <widget class="QFrame" name="frame">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>861</width>
+         <height>481</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/* Basic QFrame styling */
+QFrame {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: 1px solid #DDDDDD; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the frame */
+    font: 12pt &quot;Segoe UI&quot;; /* Font and size */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style for the items */
+QFrame::item {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: #0E2433; /* Dark text color */
+    padding: 10px; /* Padding for each item */
+    margin: 5px 0; /* Margin between items */
+    border: 1px solid #E0E0E0; /* Light grey border */
+    border-radius: 3px; /* Rounded corners */
+}
+
+/* Hover state for items */
+QFrame::item:hover {
+    background: rgba(241, 241, 241, 0.8); /* Light grey background on hover */
+    border: 1px solid #CCCCCC; /* Slightly darker grey border on hover */
+}
+
+/* Selected state for items */
+QFrame::item:selected {
+    background: rgba(187, 222, 251, 0.8); /* Light blue background for selected items */
+    color: white; /* White text for selected items */
+    border: 1px solid rgba(187, 222, 251, 0.8); /* Border matches background */
+}
+
+/* Highlight selected text color */
+QFrame::item:selected:!active {
+    color: #FFFFFF; /* White text color for inactive selected items */
+}
+
+/* Subtle shadow effect */
+QFrame::item {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Shadow::Raised</enum>
+       </property>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="geometry">
+         <rect>
+          <x>33</x>
+          <y>410</y>
+          <width>721</width>
+          <height>51</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>260</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Basic QLabel styling for bubble chat */
+QLabel {
+    background-color: #E3F2FD; /* Light blue background */
+    color: #0E2433; /* Dark text color */
+    border: 1px solid #DDDDDD; /* Light grey border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the label */
+    font: 12pt &quot;Segoe UI&quot;; /* Font and size */
+    position: relative; /* Required for positioning the tail */
+}
+
+/* Tail styling using pseudo-element */
+QLabel::before {
+    content: &quot;&quot;;
+    position: absolute;
+    bottom: 10px; /* Adjust this to move the tail vertically */
+    left: -10px; /* Position the tail on the left side */
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #E3F2FD; /* Same color as the background */
+    border-left: 0;
+    border-right: 0;
+    margin-top: -10px;
+}
+
+/* Alternative tail styling for the right side (if needed) */
+/*
+QLabel::after {
+    content: &quot;&quot;;
+    position: absolute;
+    bottom: 10px; 
+    right: -10px; 
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #E3F2FD;
+    border-left: 0;
+    border-right: 0;
+    margin-top: -10px;
+}
+*/
+</string>
+        </property>
+        <property name="text">
+         <string>Abeg class dey?</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>260</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Basic QLabel styling for circular user images */
+QLabel {
+    border: 2px solid #BBDEFB; /* Light blue border */
+    border-radius: 50%; /* Circular frame */
+    width: 50px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    background-color: #E3F2FD; /* Light blue background */
+    padding: 5px; /* Padding inside the label */
+}
+
+/* Placeholder for when there is no image */
+QLabel::before {
+    content: &quot; &quot;;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #BBDEFB; /* Light blue background for placeholder */
+    border-radius: 50%; /* Circular frame */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>account_3033143.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>310</y>
+          <width>251</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Basic QLabel styling for bubble chat */
+QLabel {
+    background-color: #E3F2FD; /* Light blue background */
+    color: #0E2433; /* Dark text color */
+    border: 1px solid #DDDDDD; /* Light grey border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the label */
+    font: 12pt &quot;Segoe UI&quot;; /* Font and size */
+    position: relative; /* Required for positioning the tail */
+}
+
+/* Tail styling using pseudo-element */
+QLabel::before {
+    content: &quot;&quot;;
+    position: absolute;
+    bottom: 10px; /* Adjust this to move the tail vertically */
+    left: -10px; /* Position the tail on the left side */
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #E3F2FD; /* Same color as the background */
+    border-left: 0;
+    border-right: 0;
+    margin-top: -10px;
+}
+
+/* Alternative tail styling for the right side (if needed) */
+/*
+QLabel::after {
+    content: &quot;&quot;;
+    position: absolute;
+    bottom: 10px; 
+    right: -10px; 
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #E3F2FD;
+    border-left: 0;
+    border-right: 0;
+    margin-top: -10px;
+}
+*/
+</string>
+        </property>
+        <property name="text">
+         <string>Go and Ask your grand father</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>310</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Basic QLabel styling for circular user images */
+QLabel {
+    border: 2px solid #BBDEFB; /* Light blue border */
+    border-radius: 50%; /* Circular frame */
+    width: 50px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    background-color: #E3F2FD; /* Light blue background */
+    padding: 5px; /* Padding inside the label */
+}
+
+/* Placeholder for when there is no image */
+QLabel::before {
+    content: &quot; &quot;;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #BBDEFB; /* Light blue background for placeholder */
+    border-radius: 50%; /* Circular frame */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>account_3033143.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>410</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  
+    color: rgb(14, 36, 51); /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;; /* Font settings */
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light blue for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>send.png</normaloff>send.png</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>420</y>
+          <width>51</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  
+    color: rgb(14, 36, 51); /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light blue for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>keyboard.png</normaloff>keyboard.png</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>420</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  
+    color: rgb(14, 36, 51); /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;; /* Font settings */
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light blue for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>attachment.png</normaloff>attachment.png</iconset>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="geometry">
+         <rect>
+          <x>700</x>
+          <y>420</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  
+    color: rgb(14, 36, 51); /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;; /* Font settings */
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light blue for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>camera.png</normaloff>camera.png</iconset>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #E3F2FD; /* Very light blue shade */  
+    color: rgb(14, 36, 51);
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; /* Darker light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background-color: #90CAF9; /* Even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #E3F2FD; /* Very light blue background for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>  Blogs</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>blogging.png</normaloff>blogging.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #E3F2FD; /* Very light blue shade */  
+    color: rgb(14, 36, 51);
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; /* Darker light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background-color: #90CAF9; /* Even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #E3F2FD; /* Very light blue background for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>  Forums</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>group.png</normaloff>group.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>530</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #E3F2FD; /* Very light blue shade */  
+    color: rgb(14, 36, 51);
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; /* Darker light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-top: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background-color: #90CAF9; /* Even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #E3F2FD; /* Very light blue background for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Sign out</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>logout.png</normaloff>logout.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #E3F2FD; /* Very light blue shade */  
+    color: rgb(14, 36, 51);
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; /* Darker light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background-color: #90CAF9; /* Even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #E3F2FD; /* Very light blue background for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string> Settings</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>settings.png</normaloff>settings.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #E3F2FD; /* Very light blue shade */  
+    color: rgb(14, 36, 51);
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; /* Darker light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background-color: #90CAF9; /* Even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #E3F2FD; /* Very light blue background for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string> Profile</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>user.png</normaloff>user.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #E3F2FD; /* Very light blue shade */  
+    color: rgb(14, 36, 51);
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; /* Darker light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background-color: #90CAF9; /* Even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #E3F2FD; /* Very light blue background for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>  GPT</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>chat-gpt.png</normaloff>chat-gpt.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #E3F2FD; /* Very light blue shade */  
+    color: rgb(14, 36, 51);
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font: 700 11pt &quot;Segoe UI&quot;;
+    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */
+}
+
+QPushButton:hover {
+    background-color: #BBDEFB; /* Darker light blue shade on hover */
+    color: rgb(14, 36, 51); /* Change text color on hover */
+    border-right: 2px solid black; /* Make the right side thicker */
+}
+
+QPushButton:pressed {
+    background-color: #90CAF9; /* Even darker light blue when pressed */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+QPushButton:disabled {
+    background-color: #E3F2FD; /* Very light blue background for disabled state */
+    color: #BCAAA4; /* Light blue text for disabled state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string> Support</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>technical-support.png</normaloff>technical-support.png</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1220</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="desktop.qrc"/>
+ </resources>
+ <connections/>
+</ui>
