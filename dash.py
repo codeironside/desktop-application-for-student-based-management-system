@@ -11,7 +11,7 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.label = QLabel(self.centralwidget)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(0, -30, 211, 631))
+        self.label.setGeometry(QRect(0 , -30, 211, 631))
         self.label.setStyleSheet(u"background-color: rgb(227, 242, 253);\n""")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
@@ -22,14 +22,14 @@ class Ui_MainWindow(object):
         self.statusbar.setObjectName(u"statusbar")
         MainWindow.setStatusBar(self.statusbar)
         self.stackedWidget = QStackedWidget(self.centralwidget)
-        self.stackedWidget.setGeometry(QtCore.QRect(50, 50, 1120, 537))
+        self.stackedWidget.setGeometry(QtCore.QRect(270, 30, 941, 561))
         self.stackedWidget.setObjectName("stackedWidget")
 
         # Create the widgets
         self.create_widgets()
 
         # Set widget_2 as the default displayed widget
-        self.stackedWidget.setCurrentIndex(1)
+        self.stackedWidget.setCurrentIndex(2)
 
         # Buttons to switch between widgets
         self.pushButton = QPushButton(self.centralwidget)
@@ -99,7 +99,7 @@ class Ui_MainWindow(object):
 
         #push buttons
 
-        self.stackedWidget.setCurrentIndex(1)
+        self.stackedWidget.setCurrentIndex(0)
         self.pushButton_2.setIcon(icon5)
         self.pushButton_3 = QPushButton(self.centralwidget)
         self.pushButton_3.setObjectName(u"pushButton_3")
@@ -295,17 +295,6 @@ class Ui_MainWindow(object):
         icon11 = QIcon()
         icon11.addFile(u"technical-support.png", QSize(), QIcon.Normal, QIcon.Off)
         self.pushButton_8.setIcon(icon11)
-        self.button_home = QPushButton("Home", self.centralwidget)
-        self.button_home.setGeometry(QtCore.QRect(50, 10, 75, 23))
-        self.button_home.setObjectName("button_home")
-
-        self.button_blog = QPushButton("Blog", self.centralwidget)
-        self.button_blog.setGeometry(QtCore.QRect(130, 10, 75, 23))
-        self.button_blog.setObjectName("button_blog")
-
-        self.button_forum = QPushButton("Forum", self.centralwidget)
-        self.button_forum.setGeometry(QtCore.QRect(210, 10, 75, 23))
-        self.button_forum.setObjectName("button_forum")
 
         MainWindow.setCentralWidget(self.centralwidget)
         self.retranslateUi(MainWindow)
@@ -411,18 +400,64 @@ class Ui_MainWindow(object):
         self.pushButton_8.setText(QCoreApplication.translate("MainWindow", u" Support", None))
 
     def setupConnections(self):
-        self.pushButton_2.clicked.connect(lambda: self.switch_widget(0))
+        self.pushButton_2.clicked.connect(lambda: self.switch_widget(2))
         self.pushButton_3.clicked.connect(lambda: self.switch_widget(1))
-        self.pushButton_5.clicked.connect(lambda: self.switch_widget(2))
+        self.pushButton_5.clicked.connect(lambda: self.switch_widget(0))
 
     def create_widgets(self):
         # First widget
-        self.widget = QWidget()
-        self.widget.setObjectName("widget")
-        self.label = QLabel(self.widget)
-        self.label.setGeometry(QtCore.QRect(200, 150, 400, 300))
-        self.label.setText("Welcome to Widget 1")
-        self.label.setObjectName("label")
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setObjectName(u"widget")
+        self.widget.setGeometry(QRect(270, 30, 941, 561))
+        self.widget.setMinimumSize(QSize(941, 561))
+        self.widget.setMaximumSize(QSize(941, 561))
+        self.widget.setAutoFillBackground(False)
+        self.widget.setStyleSheet(u"background-image: url(:njia_n6dh_161216.jpg);")
+        self.label_2 = QLabel(self.widget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(-180, -20, 921, 551))
+        self.label_2.setScaledContents(True)
+        self.line = QFrame(self.widget)
+        self.line.setObjectName(u"line")
+        self.line.setGeometry(QRect(90, 160, 811, 20))
+        self.line.setStyleSheet(u"border-color: rgb(121, 157, 255);")
+        self.line.setFrameShape(QFrame.Shape.HLine)
+        self.line.setFrameShadow(QFrame.Shadow.Sunken)
+        self.label_3 = QLabel(self.widget)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(780, 40, 101, 91))
+        self.label_3.setPixmap(QPixmap(u"../../../.designer/backup/freepik-export-20240703182022gjpK.jpeg"))
+        self.label_3.setScaledContents(True)
+        self.label_4 = QLabel(self.widget)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(70, 30, 281, 51))
+        self.label_4.setStyleSheet(u"font: 24px 700 italic 9pt \"Roboto\";")
+        self.label_4.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_5 = QLabel(self.widget)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(70, 190, 281, 51))
+        self.label_5.setStyleSheet(u"font: 18px 550 italic 7pt \"Roboto\";")
+        self.label_5.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_6 = QLabel(self.widget)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(360, 190, 281, 51))
+        self.label_6.setStyleSheet(u"font: 18px 550 italic 9pt \"Roboto\";")
+        self.label_6.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_7 = QLabel(self.widget)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(630, 190, 281, 51))
+        self.label_7.setStyleSheet(u"font: 19px 550 italic 9pt \"Roboto\";")
+        self.label_7.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_8 = QLabel(self.widget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(70, 290, 281, 51))
+        self.label_8.setStyleSheet(u"font: 18px 550 italic 7pt \"Roboto\";")
+        self.label_8.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.label_9 = QLabel(self.widget)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(350, 300, 281, 51))
+        self.label_9.setStyleSheet(u"font: 18px 550 italic 7pt \"Roboto\";")
+        self.label_9.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.stackedWidget.addWidget(self.widget)
 
         # Second widget (default)
@@ -573,19 +608,341 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.widget_2)
 
         # Third widget
-        self.widget_3 = QWidget()
-        self.widget_3.setObjectName("widget_3")
-        self.label_3 = QLabel(self.widget_3)
-        self.label_3.setGeometry(QtCore.QRect(200, 150, 400, 300))
-        self.label_3.setText("Welcome to Widget 3")
-        self.label_3.setObjectName("label_3")
+        self.widget_3 = QtWidgets.QWidget(self.centralwidget)
+        self.widget_3.setObjectName(u"widget_3")
+        self.widget_3.setGeometry(QRect(270, 30, 941, 561))
+        self.frame = QFrame(self.widget_3)
+        self.frame.setObjectName(u"frame")
+        self.frame.setGeometry(QRect(30, 30, 861, 481))
+        self.frame.setStyleSheet(u"/* Basic QFrame styling */\n"
+"QFrame {\n"
+"    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */\n"
+"    border: 1px solid #DDDDDD; /* Light grey border */\n"
+"    border-radius: 5px; /* Rounded corners */\n"
+"    padding: 10px; /* Padding inside the frame */\n"
+"    font: 12pt \"Segoe UI\"; /* Font and size */\n"
+"    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */\n"
+"}\n"
+"\n"
+"/* Style for the items */\n"
+"QFrame::item {\n"
+"    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */\n"
+"    color: #0E2433; /* Dark text color */\n"
+"    padding: 10px; /* Padding for each item */\n"
+"    margin: 5px 0; /* Margin between items */\n"
+"    border: 1px solid #E0E0E0; /* Light grey border */\n"
+"    border-radius: 3px; /* Rounded corners */\n"
+"}\n"
+"\n"
+"/* Hover state for items */\n"
+"QFrame::item:hover {\n"
+"    background: rgba(241, 241, 241, 0.8); /* Light grey background on hover */\n"
+"    border: 1px solid #CCCCCC; /* Slightly darker grey"
+                        " border on hover */\n"
+"}\n"
+"\n"
+"/* Selected state for items */\n"
+"QFrame::item:selected {\n"
+"    background: rgba(187, 222, 251, 0.8); /* Light blue background for selected items */\n"
+"    color: white; /* White text for selected items */\n"
+"    border: 1px solid rgba(187, 222, 251, 0.8); /* Border matches background */\n"
+"}\n"
+"\n"
+"/* Highlight selected text color */\n"
+"QFrame::item:selected:!active {\n"
+"    color: #FFFFFF; /* White text color for inactive selected items */\n"
+"}\n"
+"\n"
+"/* Subtle shadow effect */\n"
+"QFrame::item {\n"
+"    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */\n"
+"}\n"
+"")
+        self.frame.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame.setFrameShadow(QFrame.Shadow.Raised)
+        self.textEdit = QTextEdit(self.frame)
+        self.textEdit.setObjectName(u"textEdit")
+        self.textEdit.setGeometry(QRect(33, 410, 721, 51))
+        self.label_16 = QLabel(self.frame)
+        self.label_16.setObjectName(u"label_16")
+        self.label_16.setGeometry(QRect(80, 260, 151, 41))
+        self.label_16.setStyleSheet(u"/* Basic QLabel styling for bubble chat */\n"
+"QLabel {\n"
+"    background-color: #E3F2FD; /* Light blue background */\n"
+"    color: #0E2433; /* Dark text color */\n"
+"    border: 1px solid #DDDDDD; /* Light grey border */\n"
+"    border-radius: 15px; /* Rounded corners */\n"
+"    padding: 10px 15px; /* Padding inside the label */\n"
+"    font: 12pt \"Segoe UI\"; /* Font and size */\n"
+"    position: relative; /* Required for positioning the tail */\n"
+"}\n"
+"\n"
+"/* Tail styling using pseudo-element */\n"
+"QLabel::before {\n"
+"    content: \"\";\n"
+"    position: absolute;\n"
+"    bottom: 10px; /* Adjust this to move the tail vertically */\n"
+"    left: -10px; /* Position the tail on the left side */\n"
+"    width: 0;\n"
+"    height: 0;\n"
+"    border: 10px solid transparent;\n"
+"    border-top-color: #E3F2FD; /* Same color as the background */\n"
+"    border-left: 0;\n"
+"    border-right: 0;\n"
+"    margin-top: -10px;\n"
+"}\n"
+"\n"
+"/* Alternative tail styling for the right side (if needed) */\n"
+"/*\n"
+"QL"
+                        "abel::after {\n"
+"    content: \"\";\n"
+"    position: absolute;\n"
+"    bottom: 10px; \n"
+"    right: -10px; \n"
+"    width: 0;\n"
+"    height: 0;\n"
+"    border: 10px solid transparent;\n"
+"    border-top-color: #E3F2FD;\n"
+"    border-left: 0;\n"
+"    border-right: 0;\n"
+"    margin-top: -10px;\n"
+"}\n"
+"*/\n"
+"")
+        self.label_17 = QLabel(self.frame)
+        self.label_17.setObjectName(u"label_17")
+        self.label_17.setGeometry(QRect(30, 260, 41, 41))
+        self.label_17.setStyleSheet(u"/* Basic QLabel styling for circular user images */\n"
+"QLabel {\n"
+"    border: 2px solid #BBDEFB; /* Light blue border */\n"
+"    border-radius: 50%; /* Circular frame */\n"
+"    width: 50px; /* Fixed width */\n"
+"    height: 50px; /* Fixed height */\n"
+"    background-color: #E3F2FD; /* Light blue background */\n"
+"    padding: 5px; /* Padding inside the label */\n"
+"}\n"
+"\n"
+"/* Placeholder for when there is no image */\n"
+"QLabel::before {\n"
+"    content: \" \";\n"
+"    display: inline-block;\n"
+"    width: 100%;\n"
+"    height: 100%;\n"
+"    background-color: #BBDEFB; /* Light blue background for placeholder */\n"
+"    border-radius: 50%; /* Circular frame */\n"
+"}\n"
+"")
+        self.label_17.setPixmap(QPixmap(u"account_3033143.png"))
+        self.label_17.setScaledContents(True)
+        self.label_18 = QLabel(self.frame)
+        self.label_18.setObjectName(u"label_18")
+        self.label_18.setGeometry(QRect(520, 310, 251, 41))
+        self.label_18.setStyleSheet(u"/* Basic QLabel styling for bubble chat */\n"
+"QLabel {\n"
+"    background-color: #E3F2FD; /* Light blue background */\n"
+"    color: #0E2433; /* Dark text color */\n"
+"    border: 1px solid #DDDDDD; /* Light grey border */\n"
+"    border-radius: 15px; /* Rounded corners */\n"
+"    padding: 10px 15px; /* Padding inside the label */\n"
+"    font: 12pt \"Segoe UI\"; /* Font and size */\n"
+"    position: relative; /* Required for positioning the tail */\n"
+"}\n"
+"\n"
+"/* Tail styling using pseudo-element */\n"
+"QLabel::before {\n"
+"    content: \"\";\n"
+"    position: absolute;\n"
+"    bottom: 10px; /* Adjust this to move the tail vertically */\n"
+"    left: -10px; /* Position the tail on the left side */\n"
+"    width: 0;\n"
+"    height: 0;\n"
+"    border: 10px solid transparent;\n"
+"    border-top-color: #E3F2FD; /* Same color as the background */\n"
+"    border-left: 0;\n"
+"    border-right: 0;\n"
+"    margin-top: -10px;\n"
+"}\n"
+"\n"
+"/* Alternative tail styling for the right side (if needed) */\n"
+"/*\n"
+"QL"
+                        "abel::after {\n"
+"    content: \"\";\n"
+"    position: absolute;\n"
+"    bottom: 10px; \n"
+"    right: -10px; \n"
+"    width: 0;\n"
+"    height: 0;\n"
+"    border: 10px solid transparent;\n"
+"    border-top-color: #E3F2FD;\n"
+"    border-left: 0;\n"
+"    border-right: 0;\n"
+"    margin-top: -10px;\n"
+"}\n"
+"*/\n"
+"")
+        self.label_19 = QLabel(self.frame)
+        self.label_19.setObjectName(u"label_19")
+        self.label_19.setGeometry(QRect(780, 310, 41, 41))
+        self.label_19.setStyleSheet(u"/* Basic QLabel styling for circular user images */\n"
+"QLabel {\n"
+"    border: 2px solid #BBDEFB; /* Light blue border */\n"
+"    border-radius: 50%; /* Circular frame */\n"
+"    width: 50px; /* Fixed width */\n"
+"    height: 50px; /* Fixed height */\n"
+"    background-color: #E3F2FD; /* Light blue background */\n"
+"    padding: 5px; /* Padding inside the label */\n"
+"}\n"
+"\n"
+"/* Placeholder for when there is no image */\n"
+"QLabel::before {\n"
+"    content: \" \";\n"
+"    display: inline-block;\n"
+"    width: 100%;\n"
+"    height: 100%;\n"
+"    background-color: #BBDEFB; /* Light blue background for placeholder */\n"
+"    border-radius: 50%; /* Circular frame */\n"
+"}\n"
+"")
+        self.label_19.setPixmap(QPixmap(u"account_3033143.png"))
+        self.label_19.setScaledContents(True)
+        self.pushButton_9 = QPushButton(self.frame)
+        self.pushButton_9.setObjectName(u"pushButton_9")
+        self.pushButton_9.setGeometry(QRect(770, 410, 71, 51))
+        self.pushButton_9.setStyleSheet(u"QPushButton {\n"
+"    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  \n"
+"    color: rgb(14, 36, 51); /* Text color */\n"
+"    border: none; /* No border */\n"
+"    border-radius: 4px; /* Slightly rounded corners */\n"
+"    padding: 10px 20px; /* Padding inside the button */\n"
+"    font: 700 11pt \"Segoe UI\"; /* Font settings */\n"
+"    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */\n"
+"    color: rgb(14, 36, 51); /* Change text color on hover */\n"
+"    border-right: 2px solid black; /* Make the right side thicker */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */\n"
+"    box-shadow: none; /* Remove shadow on press */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light"
+                        " blue for disabled state */\n"
+"    color: #BCAAA4; /* Light blue text for disabled state */\n"
+"}\n"
+"")
+        icon1 = QIcon()
+        icon1.addFile(u"send.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_9.setIcon(icon1)
+        self.pushButton_11 = QPushButton(self.frame)
+        self.pushButton_11.setObjectName(u"pushButton_11")
+        self.pushButton_11.setGeometry(QRect(50, 420, 51, 31))
+        self.pushButton_11.setStyleSheet(u"QPushButton {\n"
+"    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  \n"
+"    color: rgb(14, 36, 51); /* Text color */\n"
+"    border: none; /* No border */\n"
+"    border-radius: 4px; /* Slightly rounded corners */\n"
+"    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */\n"
+"    color: rgb(14, 36, 51); /* Change text color on hover */\n"
+"    border-right: 2px solid black; /* Make the right side thicker */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */\n"
+"    box-shadow: none; /* Remove shadow on press */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light blue for disabled state */\n"
+"    color: #BCAAA4; /* Light blue text for disabled state */\n"
+"}\n"
+"")
+        icon2 = QIcon()
+        icon2.addFile(u"keyboard.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_11.setIcon(icon2)
+        self.pushButton_12 = QPushButton(self.frame)
+        self.pushButton_12.setObjectName(u"pushButton_12")
+        self.pushButton_12.setGeometry(QRect(650, 420, 41, 31))
+        self.pushButton_12.setStyleSheet(u"QPushButton {\n"
+"    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  \n"
+"    color: rgb(14, 36, 51); /* Text color */\n"
+"    border: none; /* No border */\n"
+"    border-radius: 4px; /* Slightly rounded corners */\n"
+"    padding: 10px 20px; /* Padding inside the button */\n"
+"    font: 700 11pt \"Segoe UI\"; /* Font settings */\n"
+"    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */\n"
+"    color: rgb(14, 36, 51); /* Change text color on hover */\n"
+"    border-right: 2px solid black; /* Make the right side thicker */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */\n"
+"    box-shadow: none; /* Remove shadow on press */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light"
+                        " blue for disabled state */\n"
+"    color: #BCAAA4; /* Light blue text for disabled state */\n"
+"}\n"
+"")
+        icon3 = QIcon()
+        icon3.addFile(u"attachment.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_12.setIcon(icon3)
+        self.pushButton_13 = QPushButton(self.frame)
+        self.pushButton_13.setObjectName(u"pushButton_13")
+        self.pushButton_13.setGeometry(QRect(700, 420, 41, 31))
+        self.pushButton_13.setStyleSheet(u"QPushButton {\n"
+"    background: rgba(227, 242, 253, 0.8); /* Semi-transparent light blue with slight opacity */  \n"
+"    color: rgb(14, 36, 51); /* Text color */\n"
+"    border: none; /* No border */\n"
+"    border-radius: 4px; /* Slightly rounded corners */\n"
+"    padding: 10px 20px; /* Padding inside the button */\n"
+"    font: 700 11pt \"Segoe UI\"; /* Font settings */\n"
+"    box-shadow: 0px 2px 2px rgba(0, 2, 0, 0.5); /* Subtle shadow */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background: rgba(187, 222, 251, 0.8); /* Semi-transparent light blue shade on hover */\n"
+"    color: rgb(14, 36, 51); /* Change text color on hover */\n"
+"    border-right: 2px solid black; /* Make the right side thicker */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background: rgba(144, 202, 249, 0.8); /* Semi-transparent even darker light blue when pressed */\n"
+"    box-shadow: none; /* Remove shadow on press */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background: rgba(227, 242, 253, 0.5); /* Semi-transparent light"
+                        " blue for disabled state */\n"
+"    color: #BCAAA4; /* Light blue text for disabled state */\n"
+"}\n"
+"")
+        icon4 = QIcon()
+        icon4.addFile(u"camera.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_13.setIcon(icon4)
         self.stackedWidget.addWidget(self.widget_3)
 
     def switch_widget(self, index):
         # Clear the current widget
-        current_widget = self.stackedWidget.currentWidget()
-        for child in current_widget.findChildren(QLabel):
-            child.clear()
+        # current_widget = self.stackedWidget.currentWidget()
+        # for child in current_widget.findChildren(QLabel):
+        #     child.clear()
         
         # Switch to the new widget
         self.stackedWidget.setCurrentIndex(index)
