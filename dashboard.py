@@ -1,25 +1,4 @@
-# -*- coding: utf-8 -*-
 
-################################################################################
-## Form generated from reading UI file 'mainwindowoJWFHx.ui'
-##
-## Created by: Qt User Interface Compiler version 6.7.1
-##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
-################################################################################
-
-# from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-#     QMetaObject, QObject, QPoint, QRect,
-#     QSize, QTime, QUrl, Qt)
-# from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
-#      QFont, QFontDatabase, QGradient, QIcon,
-#      QImage, QKeySequence, QLinearGradient, QPainter,
-#      QPalette, QPixmap, QRadialGradient, QTransform)
-# from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QListView,
-#      QMainWindow, QMenuBar, QPushButton, QSizePolicy,
-#      QSlider, QStatusBar, QTextEdit, QWidget)
-# #import desktop_rc
-# from PyQt5 import QtCore, QtGui, QtWidgets, QRect, Qt, QSize, QCoreApplication
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QRect, QSize, Qt, QCoreApplication
 from PyQt5.QtWidgets import QLabel,QPushButton, QFrame, QTextEdit,QStackedWidget, QWidget,QListView,QSlider,QStatusBar,QMenuBar
